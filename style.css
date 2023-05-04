@@ -1,0 +1,34 @@
+canvas{
+  position: relative;
+  background-color: #0000008a;
+}
+.container{
+  position: relative;
+}
+#placeForm{
+  font-family: 'Open Sans';
+  font-size: 12px;
+  padding: 10px;
+position: absolute;
+z-index: 2;
+bottom: 120px;
+width: 300px;
+display: flex;
+flex-direction: column;
+border: 1px solid #adadad;
+background-color: #fff;
+}
+
+#placeForm input{
+  width: 50px;
+  margin-bottom: 5px;
+}
+#placeForm select{
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+#placeForm button{
+  margin-bottom: 2.5px;
+  margin-top: 2.5px;
+}
